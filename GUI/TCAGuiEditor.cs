@@ -499,7 +499,7 @@ namespace ThrottleControlledAvionics
 							GUILayout.Label(new GUIContent(string.Format("Balanced: {0:P1}", MinLimit),
 							                               "The efficacy of the least efficient of balanced engines"),
 							                Styles.fracStyle(MinLimit));
-							Utils.ButtonSwitch("HL", ref show_imbalance, "Highlight engines with low efficacy deu to balancing");
+							Utils.ButtonSwitch("HL", ref show_imbalance, "Highlight engines with low efficacy due to balancing");
 						}
 						else GUILayout.Label("No active engines", Styles.boxed_label);
 					}
